@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+	
+<body bgcolor="#D6E2FC" background="IMAGE/背景.png">
+<meta charset="UTF-8">
+<title>ÎÞ±êÌâÎÄµµ</title>
+<style type="text/css">
+body {
+    background-color: #FFE7CB;
+    color: #Dd4600;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+a:link {
+    color: #FFE7CB;
+}
+
+.container{  
+        width:500px;  
+        height: 450px;
+        margin:20px auto;  
+        overflow: hidden;  
+        position: relative;  
+        border: 1px solid red;
+    }  
+    .container .imgcss{  
+        animation:scoll 4s linear 0s infinite;  
+    } 
+    .container .textcss {
+        animation:textScroll 4s linear 0s infinite;  
+    }
+    .container ul {
+        width:4000px;  
+        left:0;  
+        top:0;  
+        position: absolute;  
+    }
+    .container ul:hover {
+        animation-play-state: paused;
+    } 
+    .container ul li{  
+        float:left;  
+    }  
+    @keyframes scoll{  
+        from{  
+            left:0;  
+        }  
+        to{  
+            left:-1500px;  
+        }  
+    }   
+    @keyframes textScroll{  
+        from{  
+            left:0;  
+        }  
+        to{  
+            left:-1500px;  
+        }  
+    }   
+</style>
+</head>
+
+<body>
+<p style="font-size: xx-large; text-align: center;">艺术鉴赏</p>
+<p>请欣赏剪纸艺术的相关图片</p>
+<p></p>
+        <p><a href="index.html">点击回到主页</a></p>
+
+<div class="container">  
+        <ul class="imgcss">  
+            <li>
+                <td><img src="/Users/hesiying/Desktop/MY WEB xiong/IMAGE/1.png" width="530" height="500" alt=""/></td>
+            </li>
+            <li>
+                <td><img src="/Users/hesiying/Desktop/MY WEB xiong/IMAGE/2.png" width="480" height="500" alt=""/></td>
+            </li>
+            <li>
+                        <td><img src="/Users/hesiying/Desktop/MY WEB xiong/IMAGE/3.png" width="490" height="500" alt=""/></td>
+            </li>
+            <li>
+                <td><img src="/Users/hesiying/Desktop/MY WEB xiong/IMAGE/1.png" width="530" height="500" alt=""/></td>
+            </li>
+            <li>
+                <td><img src="/Users/hesiying/Desktop/MY WEB xiong/IMAGE/2.png" width="480" height="500" alt=""/></td>
+            </li>
+            <li>
+                 <td><img src="/Users/hesiying/Desktop/MY WEB xiong/IMAGE/3.png" width="490" height="500" alt=""/></td>
+            </li>
+        </ul>  
+    </div>  
+</body>
+</html>
